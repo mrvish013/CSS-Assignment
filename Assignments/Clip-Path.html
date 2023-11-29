@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <title>Assignment-2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* border: 1px solid red; */
+        }
+        .container{
+            margin: 0 auto;
+            width: 90%;
+        }
+        header {
+            display: block;
+            width: 100%;
+            height: 790px;
+        }
+
+        header::before {
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% 66%, 48% 81%, 0 65%);
+            clip-path: polygon(0 0, 100% 0, 100% 66%, 48% 81%, 0 65%);
+            content: "";
+            background: url(images/hit.jpeg)no-repeat center center/cover;
+            background-size: 100% 100%;
+            position: absolute;
+            width: 100%;
+            height: 700px;
+            z-index: -1;
+        }
+        .nav-logo{
+            font-size: 50px;
+            margin:0px 100px 0px 20px;
+            font-weight: bolder;
+        }
+        .navbar,
+        .nav-menu ul {
+            display: flex;
+        }
+        .nav-menu  a,.nav-menu li{
+            text-align: center;
+            list-style: none;
+            text-decoration: none;
+            color: rgb(128, 126, 126);
+            font-size: 20px;
+            margin: 20px;
+            font-weight: 600;
+        }
+        p{
+            color: rgb(153, 145, 145);
+            margin: 10px 100px 0px 100px;
+            padding: 0px 100px;
+        }
+        h1{
+            font-size: 60px;
+            margin: 20px;
+        }
+        .main-text , .button{
+            text-align: center;
+        }
+        .main-text{
+            margin: 100px 100px 0px 100px;
+        }
+        .button{
+            margin: 50px 0px;
+        }
+        .bt-1, .bt-2{
+            height: 30px;
+            width: 300px;
+            border: 1px solid aliceblue;
+            margin: 0px 10px;
+         }
+        .bt-1{
+            background-color:rgb(109, 108, 108); ;
+            color: aliceblue;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="section">
+            <div class="section-wrapper">
+                <div class="container">
+                    <div class="navbar">
+                        <div class="nav-logo">LOGO</div>
+                        <div class="nav-menu">
+                            <ul>
+                                <li><a href="" id="home">HOME</a></li>
+                                <li><a href="" id="about">ABOUT</a></li>
+                                <li><a href="" id="portfolio">PORTFOLIO</a></li>
+                                <li><a href="" id="pricing">PRICING</a></li>
+                                <li><a href="" id="team">TEAM</a></li>
+                                <li><a href="" id="blog">BLOG</a></li>
+                                <li><a href="" id="contact">CONTACT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main-text">
+                        <p>Our soldier are our main priority</p>
+                        <h1>WELCOME TO NAZI SQUAD</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id distinctio mollitia numquam rerum ad! Facere a delectus accusantium sequi pariatur, numquam mollitia optio eius hic ex magnam dolor nostrum, quibusdam expedita laborum ipsam quae nesciunt nam? Ab libero voluptatem quos iste, recusandae corrupti ut harum. Molestias quaerat doloremque, voluptas modi accusamus veritatis aliquid eos. Totam ex dicta alias molestiae doloremque!</p>
+                    </div>
+                    <div class="button">
+                        <button class="bt-1">
+                            GET STARTED NOW
+                        </button>
+                        <button class="bt-2">
+                            LEARN MORE
+                        </button>
+                    </div>
+                    <div class="op">
+                        <i class="fa-light fa-lightbulb-gear" style="color: #000000;"></i>
+                        <p></p>
+                        <i class="fa-regular fa-messages-question" style="color: #000000;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
